@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Contact-page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">JSF</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">ACCEUIL</a></li>
+                    <li><a href="louer.html">LOUER</a></li>
+                    <li><a href="#">ACHETER</a></li>
+                    <li><a href="#">VENDRE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="s" type="search" name = " " placeholder=" Rechercher...............">
+                <a href=""><button class="btn">Search</button></a>
+            </div>
+            <br> <br><br><br><br><br><br><br>
+            <div class="content">
+                <h1>AGENCE <br> <span class="typing">IMMOBILIERE</span></h1>
+                <p class="par">Bienvenue sur notre site web d'agence immobilière ! <br> Nous sommes là pour vous aider à trouver votre maison de rêve. <br> Explorez nos biens immobiliers dès maintenant !
+                </p>
+                <button class="cn"><a href="#">NOUS JOINDRE</a></button>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="jsf@gmail.com">
+                    <input type="password" name=" " placeholder="Entrer votre mot de passe">
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account <br>
+                    <a href="#">Sign up </a> here</p>
+                    <p class="lw">Log in with</p>
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<br><br><br><br>
+   <!--Nous contactez -->
+   <style>
+       h2{
+           font-weight: bold;
+           color: #ff7200;
+           font-size: 30px;
+           font-family: Arial;
+           text-align: center;
+       }
+       .paragr {
+                font-size: 18px;
+                font-family: Arial;
+                padding: 0 15px;
+                text-align: center;
+
+
+       }
+       .paragr  a{
+                font-size: 12px;
+                font-family: Arial;
+                text-decoration: none;
+
+       }
+       form{
+           padding: 0 15px;
+           text-align: center;
+           max-width: 50%;
+       }
+
+       form label{
+           font-size: 18px;
+           font-family: Arial;
+           text-align: justify;
+       }
+
+       form input{
+           width: 300px;
+           color: black;
+           font-size: 14px;
+           font-family: Arial;
+       }
+       .ct{
+           text-align: justify;
+           line-height: 35px;
+           padding: 0 15px;
+           max-width: 50%;
+       }
+       .mess{
+            line-height: 35px;
+           max-width: 50%;
+           padding: 0 15px;
+           text-align: justify;
+       }
+       .chebook{
+            line-height: 35px;
+            width: 200px;
+           padding: 0 15px;
+           text-align: justify;
+           /* border: 1px solid black; */
+           background-color:rgb(228, 227, 227);
+           margin-left: 15px;
+           
+       }
+       .chebook input{
+           max-width: 5%;
+           padding: 0 15px;
+           text-align: justify;
+       }
+       .dn{
+            line-height: 35px;
+           max-width: 50%;
+           padding: 0 15px;
+           text-align: justify;
+       }
+       .dn button{
+           height: 30px;
+          width: 200px;
+        background-color: #ff7200;
+        border: none;
+        color: #fff;
+        font-weight: 400;
+        border-radius: 3px;
+       }
+       .mess textarea{
+           font-size: 10.1px;
+           font-family: Arial;
+           color: black;
+       }
+   </style> 
+
+   <h2>Voulez-vous nous contacter?<br></h2>
+   <p class="paragr">Téléphone : <a href="55792120"> +22955792120</a> </p>
+   <p class="paragr">Email : <a href="mailto"> jsf@gmail.com</a> </p>
+   <form action="cible.php" method="POST">
+    <div class="ct">
+                <label for="text" id="identite">Identité ( Obligatoire) <br></label>
+                <input type="text"  id="identite" placeholder="" required><br>
+
+                <label for="email" id="email">Email ( Obligatoire) <br></label>
+                <input type="email"  id="email" placeholder="" required><br>
+
+                <label for="contact" id="tel">Téléphone ( Obligatoire) <br></label>
+                <input type="contact"  id="tel" placeholder="" required><br>
+
+                <label for="text" id="objet">Objet <br></label>
+                <input type="text"  id="objet" placeholder=""><br>
+    </div>
+    <div class="mess">
+        <label for="text" id="message">Message <br></label>
+        <textarea name="" id="" cols="55" rows="10" id="message" placeholder=""></textarea> <br>
+    </div>
+    <div class="chebook">
+        <input type="checkbox" id="confirmation" placeholder=""><br>
+        <label for="confirmation" id="confirmation" >Confirmation <br></label>
+    </div>
+    <br>
+        <div class="dn">
+            <button type="submit">ENVOYEZ VOTRE MESSAGE</button>
+        </div>
+   </form>
+
+<br><br><br>
+    <!--FOOOOOOOTER-->
+
+ <footer class="footer">
+    <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>ACCEUIL</h4>
+                    <ul>
+                        <li><a href="#">Qui sommes-nous?<br></a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <h4>LOUER</h4>
+                    <ul>
+                        <li><a href="#">Chambres</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>ACHETER</h4>
+                    <ul>
+                        <li><a href="#">Maison | Parcelles</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                            
+                    </div>
+
+                </div>
+            </div>
+
+
+    </div>
+
+        <div class="py">
+            <br> <br> <br>
+            <small>&copy;2023 JSF Immobilier Web, All Rights Reserved</small>
+        </div>
+        
+</footer>
+<!--fiiles JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+ </body> 
+ </html> 
